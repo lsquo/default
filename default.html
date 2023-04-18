@@ -142,7 +142,7 @@
       <p>You must read chapter 6.</p>
     </details>
     <h2>dfn</h2>
-    <p>A <dfn>validator</dfn> is a script that checks for syntax errors.</p>
+    <p>A <dfn>validator</dfn> is a script that can check the validity of a document.</p>
     <h2>dialog</h2>
     <dialog open>
       <p>Hello world</p>
@@ -167,8 +167,6 @@
     <h2>embed</h2>
     <h2>fieldset</h2>
     <fieldset>
-      <label for="town">Town</label>
-      <input id="town" name="town" type="text">
       <label for="city">City</label>
       <input id="city" name="city" type="text">
     </fieldset>
@@ -284,8 +282,6 @@
       <legend>Log in</legend>
       <label for="user">Email</label>
       <input id="user" name="user" type="email">
-      <label for="pass">Password</label>
-      <input id="pass" name="pass" type="password">
     </fieldset>
     <h2>li</h2>
     <ul>
@@ -360,7 +356,7 @@
         _/_)   _)/
     </pre>
     <h2>progress</h2>
-    <label for="progress">File progress</label>
+    <label for="progress">Progress</label>
     <progress id="progress" max="1">0%</progress>
     <h2>q</h2>
     <p><q>The desire to reach for the stars is ambitious</q> is a quote by Maya Angelou.</p>
@@ -439,35 +435,33 @@
     </table>
     <h2>template</h2>
     <h2>textarea</h2>
-    <textarea name="text"></textarea>
+    <label for="story">Story</label>
+    <textarea id="story" name="story"></textarea>
     <h2>tfoot</h2>
     <table>
       <thead>
         <tr>
-          <th>Ticker</th>
-          <th>Price</th>
+          <th>Amount</th>
         </tr>
       </thead>
       <tfoot>
         <tr>
-          <td colspan="2">This data is delayed.</td>
+          <td>15</td>
         </tr>
       </tfoot>
       <tbody>
         <tr>
-          <td>AAPL</td>
-          <td>165.23</td>
+          <td>10</td>
         </tr>
         <tr>
-          <td>GOOGL</td>
-          <td>105.97</td>
+          <td>25</td>
         </tr>
       </tbody>
     </table>
     <h2>th</h2>
     <table>
       <tr>
-        <th>Song</th>
+        <th>Track</th>
         <th>Artist</th>
       </tr>
       <tr>
