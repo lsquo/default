@@ -29,7 +29,7 @@
     </blockquote>
     <h2>body</h2>
     <h2>br</h2>
-    <span>Text</span><br><span>Text</span>
+    <p>Text<br>Text</p>
     <h2>button</h2>
     <button type="button">Register</button>
     <h2>canvas</h2>
@@ -115,14 +115,14 @@
       <dd>A small football club based in London.</dd>
     </dl>
     <h2>del</h2>
-    <p>The quick brown <del>fox</del><ins>cat</ins> jumps over the lazy dog.</p>
+    <p>The <del>quick</del> brown fox jumps over the lazy dog.</p>
     <h2>details</h2>
     <details>
       <summary>Prerequisites</summary>
-      <p>You must read chapter 6 and chapter 9.</p>
+      <p>You must read chapter 6.</p>
     </details>
     <h2>dfn</h2>
-    <p>A <dfn>validator</dfn> is a program that checks for syntax errors.</p>
+    <p>A <dfn>validator</dfn> is a script that checks for syntax errors.</p>
     <h2>dialog</h2>
     <dialog open>
       <p>Hello world</p>
@@ -147,7 +147,6 @@
     <h2>embed</h2>
     <h2>fieldset</h2>
     <fieldset>
-      <legend>Location</legend>
       <label for="town">Town</label>
       <input id="town" type="text">
       <label for="city">City</label>
@@ -237,7 +236,7 @@
     <h3>week</h3>
     <input name="week" type="week">
     <h2>ins</h2>
-    <p>I like drinking <del>water</del><ins>tea</ins> in the winter.</p>
+    <p>I like drinking <ins>hot</ins> tea in winter.</p>
     <h2>kbd</h2>
     <p>Select the text you want to copy and then press <kbd>ctrl</kbd> and <kbd>c</kbd> together.</p>
     <h2>label</h2>
@@ -268,7 +267,7 @@
     </menu>
     <h2>meta</h2>
     <h2>meter</h2>
-    <p>The fuel is at <meter high="75" low="25" max="100" min="0" optimum="50" value="10">10</meter></p>
+    <p>The fuel is at <meter high="75" low="25" max="100" min="0" value="10">10</meter></p>
     <h2>nav</h2>
     <h2>noscript</h2>
     <h2>object</h2>
@@ -325,14 +324,14 @@
     </pre>
     <h2>progress</h2>
     <label for="file">File progress</label>
-    <progress id="file" max="100" value="75">75%</progress>
+    <progress id="file" max="1">0%</progress>
     <h2>q</h2>
-    <p><q>The desire to reach for the stars is ambitious.</q> is a quote by Maya Angelou.</p>
+    <p><q>The desire to reach for the stars is ambitious</q> is a quote by Maya Angelou.</p>
     <h2>rp</h2>
     <h2>rt</h2>
     <h2>ruby</h2>
     <h2>s</h2>
-    <p><s>Five</s><ins>Ten</ins> thousand tickets will be available to purchase on Monday morning.</p>
+    <p>Ten thousand tickets will be available on Monday <s>morning</s>.</p>
     <h2>samp</h2>
     <p>The utility will output the text <samp>1</samp> when the scan has been completed.</p>
     <h2>script</h2>
@@ -349,17 +348,17 @@
     <h2>source</h2>
     <h2>span</h2>
     <h2>strong</h2>
-    <p>I have a <strong>dream</strong>.</p>
+    <p>I have a <strong>dream</strong> to fly a kite.</p>
     <h2>style</h2>
     <h2>sub</h2>
     <p>The chemical formula for water is H<sub>2</sub>O.</p>
     <h2>summary</h2>
     <details>
       <summary>Eligibility</summary>
-      <p>You must be over 18 and live in the United Kingdom.</p>
+      <p>You must live in the United Kingdom.</p>
     </details>
     <h2>sup</h2>
-    <p>Lisa finished 5<sup>th</sup> in her race today.</p>
+    <p>Lisa finished 5<sup>th</sup> in her race.</p>
     <h2>table</h2>
     <table>
       <tr>
@@ -403,8 +402,7 @@
     </table>
     <h2>template</h2>
     <h2>textarea</h2>
-    <label for="story">Story</label>
-    <textarea cols="10" id="story" name="story" rows="3"></textarea>
+    <textarea name="text"></textarea>
     <h2>tfoot</h2>
     <table>
       <thead>
