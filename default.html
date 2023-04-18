@@ -2,11 +2,11 @@
 <html>
 <head>
   <title>Default</title>
-  <link rel="stylesheet" href="default.css">
+  <link href="default.css" rel="stylesheet">
 </head>
   <body>
     <h1>Default</h1>
-    <p>This document contains a list of all HTML elements and demonstrates how each is styled by a browser.</p>
+    <p>This document demonstrates how each HTML element is styled by a browser.</p>
     <h2>a</h2>
     <p>Visit <a href="https://www.metoffice.gov.uk/">Met Office</a> for a weather forecast.</p>
     <h2>abbr</h2>
@@ -48,7 +48,7 @@
     <h2>cite</h2>
     <p>Detailed information is available in <cite>RFC 2616</cite>.</p>
     <h2>code</h2>
-    <code>const heading = document.querySelector("h1");</code>
+    <p><code>let n = 5;</code> will perform assignment using the assignment operator.</p>
     <h2>col</h2>
     <table>
       <colgroup>
@@ -100,10 +100,9 @@
       </tr>
     </table>
     <h2>data</h2>
-    <data value="398">Tomato Ketchup</data>
+    <p>The first product on the list is <data value="398">Tomato Ketchup</data>.</p>
     <h2>datalist</h2>
-    <label for="pet">Pet</label>
-    <input name="pet" id="pet" list="pets">
+    <input list="pets" name="pet">
     <datalist id="pets">
       <option value="Cat">
       <option value="Dog">
@@ -147,29 +146,24 @@
     <p>How vexingly <em>quick</em> daft zebras jump</p>
     <h2>embed</h2>
     <h2>fieldset</h2>
-    <form action="#">
-      <fieldset>
-        <legend>Location</legend>
-        <label for="city">City</label>
-        <input type="text" id="city">
-      </fieldset>
-    </form>
+    <fieldset>
+      <legend>Location</legend>
+      <label for="town">Town</label>
+      <input id="town" type="text">
+      <label for="city">City</label>
+      <input id="city" type="text">
+    </fieldset>
     <h2>figcaption</h2>
     <figure>
-      <img src="camel.jpg" alt="Camel">
+      <img alt="Camel" src="camel.jpg">
       <figcaption>A camel</figcaption>
     </figure>
     <h2>figure</h2>
     <figure>
-      <img src="rabbit.jpg" alt="Rabbit">
+      <img alt="Rabbit" src="rabbit.jpg">
     </figure>
     <h2>footer</h2>
     <h2>form</h2>
-    <form action="#">
-      <label for="email">Email</label>
-      <input type="email" id="email">
-      <input type="submit" value="Subscribe">
-    </form>
     <h2>h1</h2>
     <h1>Sesquipedalian</h1>
     <h2>h2</h2>
@@ -186,7 +180,7 @@
     <h2>header</h2>
     <h2>hgroup</h2>
     <hgroup>
-      <h2>Frankenstein</h2>
+      <h3>Frankenstein</h3>
       <p>The story of Victor Frankenstein is told by English author Mary Shelley.</p>
     </hgroup>
     <h2>hr</h2>
@@ -196,67 +190,67 @@
     <p>The Latin aphorism <i lang="la">carpe diem</i> is often mentioned in music and literature.</p>
     <h2>iframe</h2>
     <h2>img</h2>
-    <img src="tiger.jpg" alt="Tiger">
+    <img alt="Tiger" src="tiger.jpg">
     <h2>input</h2>
     <h3>button</h3>
-    <input type="button" name="button" value="Button">
+    <input name="button" type="button" value="Button">
     <h3>checkbox</h3>
-    <input type="checkbox" name="checkbox">
+    <input name="checkbox" type="checkbox">
     <h3>color</h3>
-    <input type="color" name="color">
+    <input name="color" type="color">
     <h3>date</h3>
-    <input type="date" name="date">
+    <input name="date" type="date">
     <h3>datetime-local</h3>
-    <input type="datetime-local" name="datetime-local">
+    <input name="datetime-local" type="datetime-local">
     <h3>email</h3>
-    <input type="email" name="email">
+    <input name="email" type="email">
     <h3>file</h3>
-    <input type="file" name="file">
+    <input name="file" type="file">
     <h3>hidden</h3>
-    <input type="hidden" name="hidden" value="971">
+    <input name="hidden" type="hidden" value="971">
     <h3>image</h3>
-    <input type="image" name="image" src="image.png" alt="">
+    <input alt="" name="image" src="image.png" type="image">
     <h3>month</h3>
-    <input type="month" name="month">
+    <input name="month" type="month">
     <h3>number</h3>
-    <input type="number" name="number">
+    <input name="number" type="number">
     <h3>password</h3>
-    <input type="password" name="password">
+    <input name="password" type="password">
     <h3>radio</h3>
-    <input type="radio" name="radio">
+    <input name="radio" type="radio">
     <h3>range</h3>
-    <input type="range" name="range" min="0" max="25">
+    <input max="25" min="0" name="range" type="range">
     <h3>reset</h3>
-    <input type="reset" name="reset">
+    <input name="reset" type="reset">
     <h3>search</h3>
-    <input type="search" name="search">
+    <input name="search" type="search">
     <h3>submit</h3>
-    <input type="submit" name="submit">
+    <input name="submit" type="submit">
     <h3>tel</h3>
-    <input type="tel" name="tel">
+    <input name="tel" type="tel">
     <h3>text</h3>
-    <input type="text" name="text">
+    <input name="text" type="text">
     <h3>time</h3>
-    <input type="time" name="time">
+    <input name="time" type="time">
     <h3>url</h3>
-    <input type="url" name="url">
+    <input name="url" type="url">
     <h3>week</h3>
-    <input type="week" name="week">
+    <input name="week" type="week">
     <h2>ins</h2>
     <p>I like drinking <del>water</del><ins>tea</ins> in the winter.</p>
     <h2>kbd</h2>
     <p>Select the text you want to copy and then press <kbd>ctrl</kbd> and <kbd>c</kbd> together.</p>
     <h2>label</h2>
     <label for="company">Company</label>
-    <input type="text" id="company" name="company">
+    <input id="company" name="company" type="text">
     <h2>legend</h2>
-    <form action="#">
-      <fieldset>
-        <legend>Location</legend>
-        <label for="country">Country</label>
-        <input type="text" id="country">
-      </fieldset>
-    </form>
+    <fieldset>
+      <legend>Log in</legend>
+      <label for="user">Email</label>
+      <input id="user" type="email">
+      <label for="password">Password</label>
+      <input id="password" type="password">
+    </fieldset>
     <h2>li</h2>
     <ul>
       <li>Portugal</li>
@@ -274,7 +268,7 @@
     </menu>
     <h2>meta</h2>
     <h2>meter</h2>
-    <p>The fuel is at <meter min="0" max="100" low="25" high="75" optimum="50" value="10">10</meter></p>
+    <p>The fuel is at <meter high="75" low="25" max="100" min="0" optimum="50" value="10">10</meter></p>
     <h2>nav</h2>
     <h2>noscript</h2>
     <h2>object</h2>
@@ -284,15 +278,15 @@
       <li>Tom</li>
     </ol>
     <h2>optgroup</h2>
-    <label for="sport">Teams</label>
-    <select id="sport">
-      <optgroup label="NFL">
-        <option>Los Angeles Rams</option>
-        <option>Minnesota Vikings</option>
+    <label for="fruit">Fruit</label>
+    <select id="fruit">
+      <optgroup label="Hesperidiums">
+        <option>Lemon</option>
+        <option>Lime</option>
       </optgroup>
-      <optgroup label="NBA">
-        <option>Chicago Bulls</option>
-        <option>Boston Celtics</option>
+      <optgroup label="Drupes">
+        <option>Mango</option>
+        <option>Peach</option>
       </optgroup>
     </select>
     <h2>option</h2>
@@ -302,11 +296,6 @@
       <option value="lion">Lion</option>
     </select>
     <h2>output</h2>
-    <form onsubmit="return false" oninput="o.value = a.valueAsNumber + b.valueAsNumber">
-      <input name="a" type="number" step="any"> +
-      <input name="b" type="number" step="any"> =
-      <output name="o"></output>
-    </form>
     <h2>p</h2>
     <p>Half of seeming clever is keeping your mouth shut at the right times.</p>
     <h2>picture</h2>
@@ -338,7 +327,7 @@
     <label for="file">File progress</label>
     <progress id="file" max="100" value="75">75%</progress>
     <h2>q</h2>
-    <q>The desire to reach for the stars is ambitious.</q>
+    <p><q>The desire to reach for the stars is ambitious.</q> is a quote by Maya Angelou.</p>
     <h2>rp</h2>
     <h2>rt</h2>
     <h2>ruby</h2>
@@ -349,14 +338,14 @@
     <h2>script</h2>
     <h2>section</h2>
     <h2>select</h2>
-    <label for="food">Food</label>
-    <select id="food">
-      <option value="tomato">Tomato</option>
-      <option value="cucumber">Cucumber</option>
+    <label for="nut">Nut</label>
+    <select id="nut">
+      <option value="hazelnut">Hazelnut</option>
+      <option value="walnut">Walnut</option>
     </select>
     <h2>slot</h2>
     <h2>small</h2>
-    <small>The way to get started is to quit talking and begin doing.</small>
+    <p>The way to get started is to quit <small>talking</small> and begin doing.</p>
     <h2>source</h2>
     <h2>span</h2>
     <h2>strong</h2>
@@ -415,7 +404,7 @@
     <h2>template</h2>
     <h2>textarea</h2>
     <label for="story">Story</label>
-    <textarea id="story" name="story" rows="3" cols="10"></textarea>
+    <textarea cols="10" id="story" name="story" rows="3"></textarea>
     <h2>tfoot</h2>
     <table>
       <thead>
