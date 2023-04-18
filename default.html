@@ -99,9 +99,12 @@
       </tr>
     </table>
     <h2>data</h2>
-    <p>The first product on the list is <data value="398">Tomato Ketchup</data>.</p>
+    <ul>
+      <li><data value="398">Tomato Ketchup</data></li>
+    </ul>
     <h2>datalist</h2>
-    <input list="pets" name="pet">
+    <label for="pet">Pet</label>
+    <input id="pet" list="pets" name="pet">
     <datalist id="pets">
       <option value="Cat">
       <option value="Dog">
@@ -147,18 +150,18 @@
     <h2>fieldset</h2>
     <fieldset>
       <label for="town">Town</label>
-      <input id="town" type="text">
+      <input id="town" name="town" type="text">
       <label for="city">City</label>
-      <input id="city" type="text">
+      <input id="city" name="city" type="text">
     </fieldset>
     <h2>figcaption</h2>
     <figure>
-      <img alt="Camel" src="camel.jpg">
+      <img alt="A camel" src="camel.jpg">
       <figcaption>A camel</figcaption>
     </figure>
     <h2>figure</h2>
     <figure>
-      <img alt="Rabbit" src="rabbit.jpg">
+      <img alt="A rabbit" src="rabbit.jpg">
     </figure>
     <h2>footer</h2>
     <h2>form</h2>
@@ -188,52 +191,69 @@
     <p>The Latin aphorism <i lang="la">carpe diem</i> is often mentioned in music and literature.</p>
     <h2>iframe</h2>
     <h2>img</h2>
-    <img alt="Tiger" src="tiger.jpg">
+    <img alt="A tiger" src="tiger.jpg">
     <h2>input</h2>
     <h3>button</h3>
-    <input name="button" type="button" value="Button">
+    <input type="button" value="Save">
     <h3>checkbox</h3>
-    <input name="checkbox" type="checkbox">
+    <input id="remember" name="remember" type="checkbox">
+    <label for="remember">Remember</label>
     <h3>color</h3>
-    <input name="color" type="color">
+    <input id="head" name="head" type="color">
+    <label for="head">Head</label>
     <h3>date</h3>
-    <input name="date" type="date">
+    <label for="anniversary">Anniversary</label>
+    <input id="anniversary" name="anniversary" type="date">
     <h3>datetime-local</h3>
-    <input name="datetime-local" type="datetime-local">
+    <label for="appointment">Appointment</label>
+    <input id="appointment" name="appointment" type="datetime-local">
     <h3>email</h3>
-    <input name="email" type="email">
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email">
     <h3>file</h3>
-    <input name="file" type="file">
+    <label for="invoice">Invoice</label>
+    <input id="invoice" name="invoice" type="file">
     <h3>hidden</h3>
-    <input name="hidden" type="hidden" value="971">
+    <input name="user" type="hidden" value="971">
     <h3>image</h3>
-    <input alt="" name="image" src="image.png" type="image">
+    <input alt="A square" src="image.png" type="image">
     <h3>month</h3>
-    <input name="month" type="month">
+    <label for="month">Month</label>
+    <input id="month" name="month" type="month">
     <h3>number</h3>
-    <input name="number" type="number">
+    <label for="number">Number</label>
+    <input id="number" name="number" type="number">
     <h3>password</h3>
-    <input name="password" type="password">
+    <label for="password">Password</label>
+    <input id="password" name="password" type="password">
     <h3>radio</h3>
-    <input name="radio" type="radio">
+    <input id="payment" name="payment" type="radio">
+    <label for="payment">Cash</label>
     <h3>range</h3>
-    <input max="25" min="0" name="range" type="range">
+    <input id="volume" max="25" min="0" name="volume" type="range">
+    <label for="volume">Volume</label>
     <h3>reset</h3>
-    <input name="reset" type="reset">
+    <input type="reset" value="Reset">
     <h3>search</h3>
-    <input name="search" type="search">
+    <label for="search">Search</label>
+    <input id="search" name="search" type="search">
     <h3>submit</h3>
-    <input name="submit" type="submit">
+    <input type="submit" value="Submit">
     <h3>tel</h3>
-    <input name="tel" type="tel">
+    <label for="telephone">Telephone</label>
+    <input id="telephone" name="telephone" type="tel">
     <h3>text</h3>
-    <input name="text" type="text">
+    <label for="text">Text</label>
+    <input id="text" name="text" type="text">
     <h3>time</h3>
-    <input name="time" type="time">
+    <label for="time">Time</label>
+    <input id="time" name="time" type="time">
     <h3>url</h3>
-    <input name="url" type="url">
+    <label for="link">Link</label>
+    <input id="link" name="link" type="url">
     <h3>week</h3>
-    <input name="week" type="week">
+    <label for="week">Week</label>
+    <input id="week" name="week" type="week">
     <h2>ins</h2>
     <p>I like drinking <ins>hot</ins> tea in winter.</p>
     <h2>kbd</h2>
@@ -245,9 +265,9 @@
     <fieldset>
       <legend>Log in</legend>
       <label for="user">Email</label>
-      <input id="user" type="email">
-      <label for="password">Password</label>
-      <input id="password" type="password">
+      <input id="user" name="user" type="email">
+      <label for="pass">Password</label>
+      <input id="pass" name="pass" type="password">
     </fieldset>
     <h2>li</h2>
     <ul>
@@ -322,8 +342,8 @@
         _/_)   _)/
     </pre>
     <h2>progress</h2>
-    <label for="file">File progress</label>
-    <progress id="file" max="1">0%</progress>
+    <label for="progress">File progress</label>
+    <progress id="progress" max="1">0%</progress>
     <h2>q</h2>
     <p><q>The desire to reach for the stars is ambitious</q> is a quote by Maya Angelou.</p>
     <h2>rp</h2>
@@ -353,8 +373,8 @@
     <p>The chemical formula for water is H<sub>2</sub>O.</p>
     <h2>summary</h2>
     <details>
-      <summary>Eligibility</summary>
-      <p>You must live in the United Kingdom.</p>
+      <summary>Requirements</summary>
+      <p>PHP 7.1.</p>
     </details>
     <h2>sup</h2>
     <p>Lisa finished 5<sup>th</sup> in her race.</p>
@@ -466,16 +486,12 @@
     <h2>tr</h2>
     <table>
       <tr>
-        <th>Manufacturer</th>
-        <th>Model</th>
+        <td>Graham</td>
+        <td>White</td>
       </tr>
       <tr>
-        <td>Toyota</td>
-        <td>Yaris</td>
-      </tr>
-      <tr>
-        <td>Renault</td>
-        <td>Clio</td>
+        <td>Liam</td>
+        <td>Pugh</td>
       </tr>
     </table>
     <h2>track</h2>
