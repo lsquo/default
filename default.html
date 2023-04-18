@@ -51,51 +51,69 @@
     <h2>col</h2>
     <table>
       <colgroup>
-        <col span="2">
+        <col span="5">
         <col span="2">
       </colgroup>
       <tr>
-        <th scope="col">First name</th>
-        <th scope="col">Last name</th>
-        <th scope="col">Email address</th>
-        <th scope="col">Telephone number</th>
+        <th>Mon</th>
+        <th>Tue</th>
+        <th>Wed</th>
+        <th>Thu</th>
+        <th>Fri</th>
+        <th>Sat</th>
+        <th>Sun</th>
       </tr>
       <tr>
-        <td>James</td>
-        <td>Parker</td>
-        <td>james@example.com</td>
-        <td>02075158715</td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
       </tr>
       <tr>
-        <td>Kelly</td>
-        <td>West</td>
-        <td>kelly@example.com</td>
-        <td>02075158917</td>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+        <td>11</td>
+        <td>12</td>
+        <td>13</td>
+        <td>14</td>
       </tr>
     </table>
     <h2>colgroup</h2>
     <table>
       <colgroup>
-        <col span="2">
+        <col span="5">
         <col span="2">
       </colgroup>
       <tr>
-        <th scope="col">First name</th>
-        <th scope="col">Last name</th>
-        <th scope="col">Email address</th>
-        <th scope="col">Telephone number</th>
+        <th>Mon</th>
+        <th>Tue</th>
+        <th>Wed</th>
+        <th>Thu</th>
+        <th>Fri</th>
+        <th>Sat</th>
+        <th>Sun</th>
       </tr>
       <tr>
-        <td>Rita</td>
-        <td>Jones</td>
-        <td>rita@example.com</td>
-        <td>02075151287</td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
       </tr>
       <tr>
-        <td>Simon</td>
-        <td>Baker</td>
-        <td>simon@example.com</td>
-        <td>02075157988</td>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+        <td>11</td>
+        <td>12</td>
+        <td>13</td>
+        <td>14</td>
       </tr>
     </table>
     <h2>data</h2>
@@ -199,8 +217,8 @@
     <input id="remember" name="remember" type="checkbox">
     <label for="remember">Remember</label>
     <h3>color</h3>
-    <input id="head" name="head" type="color">
-    <label for="head">Head</label>
+    <input id="background" name="background" type="color">
+    <label for="background">Background</label>
     <h3>date</h3>
     <label for="anniversary">Anniversary</label>
     <input id="anniversary" name="anniversary" type="date">
@@ -228,7 +246,7 @@
     <input id="password" name="password" type="password">
     <h3>radio</h3>
     <input id="payment" name="payment" type="radio">
-    <label for="payment">Cash</label>
+    <label for="payment">PayPal</label>
     <h3>range</h3>
     <input id="volume" max="25" min="0" name="volume" type="range">
     <label for="volume">Volume</label>
@@ -430,6 +448,11 @@
           <th>Price</th>
         </tr>
       </thead>
+      <tfoot>
+        <tr>
+          <td colspan="2">This data is delayed.</td>
+        </tr>
+      </tfoot>
       <tbody>
         <tr>
           <td>AAPL</td>
@@ -440,11 +463,6 @@
           <td>105.97</td>
         </tr>
       </tbody>
-      <tfoot>
-        <tr>
-          <td colspan="2">This data is delayed.</td>
-        </tr>
-      </tfoot>
     </table>
     <h2>th</h2>
     <table>
