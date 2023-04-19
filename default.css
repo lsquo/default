@@ -8,13 +8,13 @@ address {
 }
 area {}
 article {
-  margin-bottom: 2rem;
+  margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
 }
 aside {
-  margin-bottom: 2rem;
+  margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -27,7 +27,7 @@ bdo {}
 blockquote {
   margin-bottom: 2rem;
   margin-left: 2rem;
-  margin-right: 0;
+  margin-right: 2rem;
   margin-top: 0;
 }
 body {
@@ -108,7 +108,7 @@ dialog {
   padding-top: 1rem;
 }
 div {
-  margin-bottom: 2rem;
+  margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -135,7 +135,7 @@ fieldset {
   border-left-width: thin;
   border-right-width: thin;
   border-top-width: thin;
-  margin-bottom: 2rem;
+  margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -157,13 +157,13 @@ figure {
   margin-top: 0;
 }
 footer {
-  margin-bottom: 2rem;
+  margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
 }
 form {
-  margin-bottom: 2rem;
+  margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -206,7 +206,7 @@ h6 {
 }
 head {}
 header {
-  margin-bottom: 2rem;
+  margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -623,7 +623,7 @@ legend {
 li {}
 link {}
 main {
-  margin-bottom: 2rem;
+  margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -643,7 +643,7 @@ menu {
 meta {}
 meter {}
 nav {
-  margin-bottom: 2rem;
+  margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -685,7 +685,7 @@ s {}
 samp {}
 script {}
 section {
-  margin-bottom: 2rem;
+  margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
