@@ -56,12 +56,17 @@ button {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
+  padding-bottom: 0;
   padding-left: 1rem;
   padding-right: 1rem;
+  padding-top: 0;
 }
 canvas {}
 caption {
   margin-bottom: 0.5rem;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
   text-align: left;
 }
 cite {}
@@ -73,6 +78,8 @@ datalist {}
 dd {
   margin-bottom: 1rem;
   margin-left: 2rem;
+  margin-right: 0;
+  margin-top: 0;
 }
 del {}
 details {
@@ -250,8 +257,10 @@ input[type="button"] {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
+  padding-bottom: 0;
   padding-left: 1rem;
   padding-right: 1rem;
+  padding-top: 0;
 }
 input[type="checkbox"] {
   accent-color: black;
@@ -286,8 +295,10 @@ input[type="email"] {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
+  padding-bottom: 0;
   padding-left: 1rem;
   padding-right: 1rem;
+  padding-top: 0;
   width: 100%;
 }
 input[type="email"]:focus {
@@ -319,8 +330,10 @@ input[type="file"]::file-selector-button {
   margin-left: 0;
   margin-right: 0.5rem;
   margin-top: 0;
+  padding-bottom: 0;
   padding-left: 1rem;
   padding-right: 1rem;
+  padding-top: 0;
 }
 input[type="hidden"] {}
 input[type="image"] {
@@ -349,8 +362,10 @@ input[type="number"] {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
+  padding-bottom: 0;
   padding-left: 1rem;
   padding-right: 1rem;
+  padding-top: 0;
   width: 100%;
 }
 input[type="number"]:focus {
@@ -381,8 +396,10 @@ input[type="password"] {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
+  padding-bottom: 0;
   padding-left: 1rem;
   padding-right: 1rem;
+  padding-top: 0;
   width: 100%;
 }
 input[type="password"]:focus {
@@ -423,8 +440,10 @@ input[type="reset"] {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
+  padding-bottom: 0;
   padding-left: 1rem;
   padding-right: 1rem;
+  padding-top: 0;
 }
 input[type="search"] {
   box-sizing: border-box;
@@ -445,8 +464,10 @@ input[type="search"] {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
+  padding-bottom: 0;
   padding-left: 1rem;
   padding-right: 1rem;
+  padding-top: 0;
   width: 100%;
 }
 input[type="search"]:focus {
@@ -475,8 +496,10 @@ input[type="submit"] {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
+  padding-bottom: 0;
   padding-left: 1rem;
   padding-right: 1rem;
+  padding-top: 0;
 }
 input[type="tel"] {
   box-sizing: border-box;
@@ -497,8 +520,10 @@ input[type="tel"] {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
+  padding-bottom: 0;
   padding-left: 1rem;
   padding-right: 1rem;
+  padding-top: 0;
   width: 100%;
 }
 input[type="tel"]:focus {
@@ -529,8 +554,10 @@ input[type="text"] {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
+  padding-bottom: 0;
   padding-left: 1rem;
   padding-right: 1rem;
+  padding-top: 0;
   width: 100%;
 }
 input[type="text"]:focus {
@@ -562,8 +589,10 @@ input[type="url"] {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
+  padding-bottom: 0;
   padding-left: 1rem;
   padding-right: 1rem;
+  padding-top: 0;
   width: 100%;
 }
 input[type="url"]:focus {
@@ -581,7 +610,9 @@ kbd {}
 label {
   display: inline-block;
   margin-bottom: 0.5rem;
+  margin-left: 0;
   margin-right: 1rem;
+  margin-top: 0;
 }
 legend {
   padding-bottom: 0;
@@ -604,7 +635,10 @@ menu {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
+  padding-bottom: 0;
   padding-left: 2rem;
+  padding-right: 0;
+  padding-top: 0;
 }
 meta {}
 meter {}
@@ -621,7 +655,10 @@ ol {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
+  padding-bottom: 0;
   padding-left: 2rem;
+  padding-right: 0;
+  padding-top: 0;
 }
 optgroup {}
 option {}
@@ -664,6 +701,9 @@ sub {}
 summary {
   list-style-type: none;
   margin-bottom: 0.5rem;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
 }
 sup {}
 table {
@@ -688,8 +728,10 @@ td {
   border-left-width: thin;
   border-right-width: thin;
   border-top-width: thin;
+  padding-bottom: 0;
   padding-left: 1rem;
   padding-right: 1rem;
+  padding-top: 0;
 }
 template {}
 textarea {
@@ -712,8 +754,10 @@ textarea {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
+  padding-bottom: 0;
   padding-left: 1rem;
   padding-right: 1rem;
+  padding-top: 0;
 }
 textarea:focus {
   border-bottom-color: transparent;
@@ -739,8 +783,10 @@ th {
   border-right-width: thin;
   border-top-width: thin;
   font-weight: normal;
+  padding-bottom: 0;
   padding-left: 1rem;
   padding-right: 1rem;
+  padding-top: 0;
   text-align: left;
 }
 thead {}
@@ -754,7 +800,10 @@ ul {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
+  padding-bottom: 0;
   padding-left: 2rem;
+  padding-right: 0;
+  padding-top: 0;
 }
 var {}
 video {}
