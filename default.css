@@ -796,6 +796,9 @@ textarea:focus {
   border-top-style: dashed;
   outline-style: none;
 }
+textarea::placeholder {
+  color: black;
+}
 tfoot {}
 th {
   border-bottom-color: black;
