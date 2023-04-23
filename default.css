@@ -314,7 +314,7 @@ input[type="email"]:focus {
   outline-style: none;
 }
 input[type="email"]::placeholder {
-  color: black;
+  color: gray;
 }
 input[type="file"] {}
 input[type="file"]::file-selector-button {
@@ -384,7 +384,7 @@ input[type="number"]:focus {
   outline-style: none;
 }
 input[type="number"]::placeholder {
-  color: black;
+  color: gray;
 }
 input[type="password"] {
   box-sizing: border-box;
@@ -421,7 +421,7 @@ input[type="password"]:focus {
   outline-style: none;
 }
 input[type="password"]::placeholder {
-  color: black;
+  color: gray;
 }
 input[type="radio"] {
   accent-color: black;
@@ -496,7 +496,7 @@ input[type="search"]:focus {
   outline-style: none;
 }
 input[type="search"]::placeholder {
-  color: black;
+  color: gray;
 }
 input[type="submit"] {
   border-bottom-color: black;
@@ -557,7 +557,7 @@ input[type="tel"]:focus {
   outline-style: none;
 }
 input[type="tel"]::placeholder {
-  color: black;
+  color: gray;
 }
 input[type="text"] {
   box-sizing: border-box;
@@ -594,7 +594,7 @@ input[type="text"]:focus {
   outline-style: none;
 }
 input[type="text"]::placeholder {
-  color: black;
+  color: gray;
 }
 input[type="time"] {}
 input[type="url"] {
@@ -632,7 +632,7 @@ input[type="url"]:focus {
   outline-style: none;
 }
 input[type="url"]::placeholder {
-  color: black;
+  color: gray;
 }
 input[type="week"] {}
 ins {}
@@ -797,7 +797,7 @@ textarea:focus {
   outline-style: none;
 }
 textarea::placeholder {
-  color: black;
+  color: gray;
 }
 tfoot {}
 th {
