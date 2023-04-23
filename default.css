@@ -313,6 +313,9 @@ input[type="email"]:focus {
   border-top-style: dashed;
   outline-style: none;
 }
+input[type="email"]::placeholder {
+  color: black;
+}
 input[type="file"] {}
 input[type="file"]::file-selector-button {
   border-bottom-color: black;
@@ -380,6 +383,9 @@ input[type="number"]:focus {
   border-top-style: dashed;
   outline-style: none;
 }
+input[type="number"]::placeholder {
+  color: black;
+}
 input[type="password"] {
   box-sizing: border-box;
   border-bottom-color: black;
@@ -413,6 +419,9 @@ input[type="password"]:focus {
   border-right-style: dashed;
   border-top-style: dashed;
   outline-style: none;
+}
+input[type="password"]::placeholder {
+  color: black;
 }
 input[type="radio"] {
   accent-color: black;
@@ -486,6 +495,9 @@ input[type="search"]:focus {
   border-top-style: dashed;
   outline-style: none;
 }
+input[type="search"]::placeholder {
+  color: black;
+}
 input[type="submit"] {
   border-bottom-color: black;
   border-left-color: black;
@@ -544,6 +556,9 @@ input[type="tel"]:focus {
   border-top-style: dashed;
   outline-style: none;
 }
+input[type="tel"]::placeholder {
+  color: black;
+}
 input[type="text"] {
   box-sizing: border-box;
   border-bottom-color: black;
@@ -577,6 +592,9 @@ input[type="text"]:focus {
   border-right-style: dashed;
   border-top-style: dashed;
   outline-style: none;
+}
+input[type="text"]::placeholder {
+  color: black;
 }
 input[type="time"] {}
 input[type="url"] {
@@ -612,6 +630,9 @@ input[type="url"]:focus {
   border-right-style: dashed;
   border-top-style: dashed;
   outline-style: none;
+}
+input[type="url"]::placeholder {
+  color: black;
 }
 input[type="week"] {}
 ins {}
